@@ -64,14 +64,14 @@
 			</EnumValue>
 			<EnumValue uuid="2b028317-70ba-43a9-8c5a-21c9f4e2ba7b">
 				<Properties>
-					<Name>Многодетная</Name>
+					<Name>Малодетная</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Многодетная</v8:content>
+							<v8:content>Малодетная</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Многодетная</Comment>
+					<Comment>Малодетная</Comment>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>
