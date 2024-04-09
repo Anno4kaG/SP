@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Группа" id="7">
+			<DataPath>Объект.Группа</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ГруппаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ГруппаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Воспитанник" id="10">
+			<DataPath>Объект.Воспитанник</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВоспитанникКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВоспитанникРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ДатаВыпуска" id="13">
+			<DataPath>Объект.ДатаВыпуска</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаВыпускаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ДатаВыпускаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="ТЧ_Дети" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТЧ_Дети</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЧ_ДетиКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ТЧ_ДетиКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ТЧ_ДетиРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ТЧ_ДетиСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>ТЧ_Дети</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_ДетиСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ТЧ_ДетиСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЧ_ДетиСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>ТЧ_Дети</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_ДетиСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ТЧ_ДетиСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЧ_ДетиУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>ТЧ_Дети</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ_ДетиУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ТЧ_ДетиУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТЧ_ДетиНомерСтроки" id="29">
+					<DataPath>Объект.ТЧ_Дети.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_ДетиНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТЧ_ДетиНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ТЧ_ДетиРебенок" id="32">
+					<DataPath>Объект.ТЧ_Дети.Ребенок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_ДетиРебенокКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТЧ_ДетиРебенокРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ТЧ_ДетиДатаРождения" id="35">
+					<DataPath>Объект.ТЧ_Дети.ДатаРождения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_ДетиДатаРожденияКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТЧ_ДетиДатаРожденияРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ТЧ_ДетиДатаЗачисления" id="38">
+					<DataPath>Объект.ТЧ_Дети.ДатаЗачисления</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_ДетиДатаЗачисленияКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТЧ_ДетиДатаЗачисленияРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ТЧ_ДетиДатаВыпуска" id="41">
+					<DataPath>Объект.ТЧ_Дети.ДатаВыпуска</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ_ДетиДатаВыпускаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТЧ_ДетиДатаВыпускаРасширеннаяПодсказка" id="43"/>
+					<Events>
+						<Event name="OnChange">ТЧ_ДетиДатаВыпускаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВыпускИзДетскогоСада</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

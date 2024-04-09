@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Subsystem uuid="e127eec3-1217-419b-83d0-11842a35adfd">
+		<Properties>
+			<Name>Кадры</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кадры</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Кадры</Comment>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЮридическийАдрес</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Пол</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТипОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаКонстант</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Дети</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СоциальноеПоложение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Родители</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СоставСемьи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.КритерийВоспитанник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Посещаемость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ТабельПосещаемости</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингЗачисленийПоГруппам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингЗаполненностиГрупп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыДетей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДополнительныеСвойстваДетей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваДетей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияСвойствДетей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыГрафиковРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ДиаграммаНачислений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЦеныОплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СвойстваДетей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

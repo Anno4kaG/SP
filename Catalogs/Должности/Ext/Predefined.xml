@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.12">
+	<Item id="6ba83a24-7d60-44cc-b9d7-5e5104b83df7">
+		<Name>Администратор</Name>
+		<Code>000000001</Code>
+		<Description>Администратор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="50a113de-6af6-4a6d-99dc-8932cf1d64cb">
+		<Name>Бухгалтер</Name>
+		<Code>000000005</Code>
+		<Description>Бухгалтер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="59595056-643f-433b-bd7c-79bd92f1ecec">
+		<Name>Воспитатель</Name>
+		<Code>000000002</Code>
+		<Description>Воспитатель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa337ebb-1b8a-4d8d-9f1f-07469c2dcf9e">
+		<Name>Заведующий</Name>
+		<Code>000000003</Code>
+		<Description>Заведующий</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eaad5b4c-2061-4a40-8d94-b480db878cb5">
+		<Name>Няня</Name>
+		<Code>000000004</Code>
+		<Description>Няня</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0cd3de88-c0a2-4008-a357-5e96b6d41e80">
+		<Name>Охранник</Name>
+		<Code>000000007</Code>
+		<Description>Охранник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d90c6bee-1e3a-49fd-aa4e-aee8114068c0">
+		<Name>Повар</Name>
+		<Code>000000006</Code>
+		<Description>Повар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

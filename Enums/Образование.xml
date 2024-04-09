@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Enum uuid="8cce97d6-f23c-451c-a3ec-3c68a87b103e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Образование" category="Ref">
+				<xr:TypeId>3d3d5089-e6bc-4461-9d1e-4b7818d3f81e</xr:TypeId>
+				<xr:ValueId>290b547f-e320-4b66-9983-181d7f2404fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Образование" category="Manager">
+				<xr:TypeId>076fd78d-9527-4fe7-bec5-7df1033d0db2</xr:TypeId>
+				<xr:ValueId>dfe6a561-b1f7-4e56-a635-2fe5fd148804</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Образование" category="List">
+				<xr:TypeId>afc3e062-4311-430d-86fe-63ec25647cf3</xr:TypeId>
+				<xr:ValueId>1724d143-6a31-4312-89b6-aff8856209af</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Образование</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Образование</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Образование</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="40f8bdfa-3e49-4b6c-8093-b3bf6917da2d">
+				<Properties>
+					<Name>Высшее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Высшее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Высшее</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="08488897-4750-4678-831b-0bdc0a232b2c">
+				<Properties>
+					<Name>Среднее</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Среднее</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Среднее</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="99ef4cb7-4bc1-48d1-83ea-59c19326ad37">
+				<Properties>
+					<Name>Начальное</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начальное</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Начальное</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

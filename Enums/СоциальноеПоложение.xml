@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Enum uuid="816d84f0-c756-4463-b637-2cd320736e77">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СоциальноеПоложение" category="Ref">
+				<xr:TypeId>61123c30-5fb9-4947-9ad8-37f0105d9ed5</xr:TypeId>
+				<xr:ValueId>32277584-8dc7-4ac0-b787-23da0f178203</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СоциальноеПоложение" category="Manager">
+				<xr:TypeId>bbbd1603-2a55-482a-8ada-b90338ef7e05</xr:TypeId>
+				<xr:ValueId>70ea2701-4ca5-489b-bc7a-9f2cdc246152</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СоциальноеПоложение" category="List">
+				<xr:TypeId>6677a2f8-1ba7-4160-9552-e8aa8023b300</xr:TypeId>
+				<xr:ValueId>5f301c05-0739-424c-bf04-c443b0bafd5e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоциальноеПоложение</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Социальное положение</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Социальное положение</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b2e61b34-6bb3-45a6-88e1-1f0b8db6ca61">
+				<Properties>
+					<Name>Рабочий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рабочий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Рабочий</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d091668b-a5d7-4df0-8d39-5af8ec1dc535">
+				<Properties>
+					<Name>Служащий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служащий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Служащий</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="57f778d3-446f-4bc5-8a6d-5827e7e183cb">
+				<Properties>
+					<Name>Домохозяйка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Домохозяйка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Домохозяйка</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2252993a-02c1-4f37-99f8-cad68ae045ad">
+				<Properties>
+					<Name>Предприниматель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предприниматель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Предприниматель</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

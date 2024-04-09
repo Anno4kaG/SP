@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.12">
+	<Item id="09af1354-07bc-4199-bd0e-7fa3034a297e">
+		<Name>Младшая</Name>
+		<Code>00002</Code>
+		<Description>Младшая</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="72b3a941-e7e9-4ada-9d2f-0a48454ef5b4">
+		<Name>Средняя</Name>
+		<Code>00003</Code>
+		<Description>Средняя</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f95d205b-6bf5-4c3b-8e52-cf5d1d21e651">
+		<Name>Старшая</Name>
+		<Code>00004</Code>
+		<Description>Старшая</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3583b12e-581a-44aa-b787-58494a0c7325">
+		<Name>Ясли</Name>
+		<Code>00001</Code>
+		<Description>Ясли</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
