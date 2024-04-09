@@ -40,6 +40,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЦеныОплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СвойстваДетей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Варя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Саша</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
