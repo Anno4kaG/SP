@@ -40,14 +40,14 @@
 		<ChildObjects>
 			<EnumValue uuid="509f4c96-18bf-4c19-a7bf-1c901c4ffdf0">
 				<Properties>
-					<Name>Мужской</Name>
+					<Name>Мужско</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Мужской</v8:content>
+							<v8:content>Мужско</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Мужской</Comment>
+					<Comment>Мужско</Comment>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8bab397b-9b55-4f28-9c67-381dba926073">
